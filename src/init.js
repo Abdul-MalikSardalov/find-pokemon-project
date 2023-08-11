@@ -1,2 +1,4 @@
-import loadEvent from './events/loadEvent.js';
-loadEvent();
+import findPokemonListeners from "./events/findPokemonListeners.js";
+import enterListener from "./events/enterEvent.js";
+findPokemonListeners();
+enterListener();
